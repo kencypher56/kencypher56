@@ -6,14 +6,17 @@
       <stop offset="100%" stop-color="#10131c"/>
     </linearGradient>
     <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#e8c26a" stop-opacity=".55"/>
-      <stop offset="50%" stop-color="#00d8f0" stop-opacity=".55"/>
-      <stop offset="100%" stop-color="#7ea8e8" stop-opacity=".55"/>
+      <stop offset="0%" stop-color="#f0cd7a"/>
+      <stop offset="35%" stop-color="#d64358"/>
+      <stop offset="70%" stop-color="#e8c26a"/>
+      <stop offset="100%" stop-color="#c9303f"/>
+      <animate attributeName="x1" values="0;0.5;0" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;1.5;1" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7ea8e8" stop-opacity=".35"/>
-      <stop offset="50%" stop-color="#d64358" stop-opacity=".35"/>
-      <stop offset="100%" stop-color="#e8c26a" stop-opacity=".35"/>
+      <stop offset="0%" stop-color="#6d1020"/>
+      <stop offset="45%" stop-color="#a3172b"/>
+      <stop offset="100%" stop-color="#5c1030"/>
     </linearGradient>
     <clipPath id="ff"><rect width="1000" height="180" rx="16"/></clipPath>
     <style>
