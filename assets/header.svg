@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Kencypher - DevOps, System Administration, Automation, Penetration Testing">
+  <title>Kencypher - DevOps / SysAdmin / Automation / Pentesting</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="50%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5a0"/>
+      <stop offset="35%" stop-color="#22d3ee"/>
+      <stop offset="70%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+      <animate attributeName="x1" values="0;0.6;0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;1.6;1" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5a0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00e5a0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowOrb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tight" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="0" y="0" width="1000" height="300" rx="18"/></clipPath>
+    <clipPath id="reveal">
+      <rect x="60" y="196" width="0" height="34">
+        <animate attributeName="width" values="0;0;545;545;0" keyTimes="0;0.06;0.45;0.9;1" dur="11s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <style>
+      .mono { font-family: "JetBrains Mono","Fira Code","SF Mono",Consolas,"Courier New",monospace; }
+      .rain { fill:#00e5a0; opacity:.20; font-size:13px; }
+      .tag  { fill:#7dd3fc; font-size:12px; letter-spacing:1.6px; }
+      .kv   { fill:#5b6b86; font-size:12.5px; }
+      .sub  { fill:#9fb3c8; font-size:16px; letter-spacing:.4px; }
+      @keyframes flick { 0%,100%{opacity:1} 45%{opacity:.55} 50%{opacity:1} 92%{opacity:.7} }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      .title  { animation: flick 7s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+
+    <circle cx="140" cy="70" r="200" fill="url(#glowOrb)">
+      <animate attributeName="cy" values="70;120;70" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="240" r="220" fill="url(#glowOrb2)">
+      <animate attributeName="cy" values="240;190;240" dur="14s" repeatCount="indefinite"/>
+    </circle>
+
+    <g stroke="#1e3a5f" stroke-width=".6" opacity=".38">
+      <path d="M0 60H1000M0 110H1000M0 160H1000M0 210H1000M0 260H1000"/>
+      <path d="M60 0V300M160 0V300M260 0V300M360 0V300M460 0V300M560 0V300M660 0V300M760 0V300M860 0V300M960 0V300"/>
+    </g>
+
+    <g class="mono rain">
+      <text x="34" y="-10">1<tspan x="34" dy="18">0</tspan><tspan x="34" dy="18">1</tspan><tspan x="34" dy="18">1</tspan><tspan x="34" dy="18">0</tspan>
+        <animateTransform attributeName="transform" type="translate" values="0,-40;0,360" dur="6s" repeatCount="indefinite"/></text>
+      <text x="212" y="-40">0<tspan x="212" dy="18">1</tspan><tspan x="212" dy="18">1</tspan><tspan x="212" dy="18">0</tspan>
+        <animateTransform attributeName="transform" type="translate" values="0,-20;0,380" dur="8.5s" repeatCount="indefinite"/></text>
+      <text x="410" y="-70">1<tspan x="410" dy="18">1</tspan><tspan x="410" dy="18">0</tspan><tspan x="410" dy="18">1</tspan><tspan x="410" dy="18">0</tspan>
+        <animateTransform attributeName="transform" type="translate" values="0,-30;0,370" dur="7.2s" repeatCount="indefinite"/></text>
+      <text x="648" y="-20">0<tspan x="648" dy="18">0</tspan><tspan x="648" dy="18">1</tspan><tspan x="648" dy="18">1</tspan>
+        <animateTransform attributeName="transform" type="translate" values="0,-60;0,340" dur="9.4s" repeatCount="indefinite"/></text>
+      <text x="806" y="-50">1<tspan x="806" dy="18">0</tspan><tspan x="806" dy="18">0</tspan><tspan x="806" dy="18">1</tspan><tspan x="806" dy="18">1</tspan>
+        <animateTransform attributeName="transform" type="translate" values="0,-10;0,390" dur="6.8s" repeatCount="indefinite"/></text>
+      <text x="944" y="-30">0<tspan x="944" dy="18">1</tspan><tspan x="944" dy="18">0</tspan>
+        <animateTransform attributeName="transform" type="translate" values="0,-50;0,350" dur="10.1s" repeatCount="indefinite"/></text>
+    </g>
+
+    <rect x="-320" y="0" width="320" height="300" fill="url(#sweep)" opacity=".55">
+      <animate attributeName="x" values="-320;1000" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <g class="mono">
+      <text x="60" y="72" font-size="14"><tspan fill="#00e5a0">root@kencypher</tspan><tspan fill="#5b6b86">:</tspan><tspan fill="#22d3ee">~</tspan><tspan fill="#5b6b86">$ </tspan><tspan fill="#e6edf3">whoami</tspan><tspan fill="#00e5a0" class="cursor">&#9608;</tspan></text>
+    </g>
+
+    <text x="58" y="158" class="mono title" font-size="72" font-weight="700" fill="url(#neon)" filter="url(#soft)" letter-spacing="2">KENCYPHER</text>
+
+    <g clip-path="url(#reveal)">
+      <text x="60" y="220" class="mono sub">DevOps &#183; System Administration &#183; Automation &#183; Pentesting</text>
+    </g>
+    <rect x="60" y="204" width="7" height="20" fill="#22d3ee" class="cursor">
+      <animate attributeName="x" values="60;60;600;600;60" keyTimes="0;0.06;0.45;0.9;1" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g class="mono">
+      <g transform="translate(60,250)">
+        <rect width="126" height="26" rx="13" fill="#00e5a0" fill-opacity=".10" stroke="#00e5a0" stroke-opacity=".45"/>
+        <circle cx="16" cy="13" r="4" fill="#00e5a0" filter="url(#tight)">
+          <animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+        <text x="28" y="17" class="tag" fill="#00e5a0">UPTIME 99.9%</text>
+      </g>
+      <g transform="translate(198,250)">
+        <rect width="150" height="26" rx="13" fill="#22d3ee" fill-opacity=".10" stroke="#22d3ee" stroke-opacity=".45"/>
+        <circle cx="16" cy="13" r="4" fill="#22d3ee" filter="url(#tight)">
+          <animate attributeName="opacity" values="1;.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+        <text x="28" y="17" class="tag">TUNNELS ENCRYPTED</text>
+      </g>
+      <g transform="translate(360,250)">
+        <rect width="140" height="26" rx="13" fill="#818cf8" fill-opacity=".10" stroke="#818cf8" stroke-opacity=".45"/>
+        <circle cx="16" cy="13" r="4" fill="#818cf8" filter="url(#tight)">
+          <animate attributeName="opacity" values="1;.25;1" dur="2.6s" repeatCount="indefinite"/></circle>
+        <text x="28" y="17" class="tag" fill="#a5b4fc">SCRIPTS DEPLOYED</text>
+      </g>
+    </g>
+
+    <g stroke="#22d3ee" stroke-opacity=".35" fill="none">
+      <path d="M760 96 L850 62 L940 100 L900 176 L800 176 Z"/>
+      <path d="M760 96 L900 176 M850 62 L800 176 M940 100 L800 176"/>
+    </g>
+    <g fill="#22d3ee">
+      <circle cx="760" cy="96" r="4.5"><animate attributeName="r" values="4.5;7;4.5" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="850" cy="62" r="4.5" fill="#00e5a0"><animate attributeName="r" values="4.5;7;4.5" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="940" cy="100" r="4.5" fill="#818cf8"><animate attributeName="r" values="4.5;7;4.5" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="176" r="4.5"><animate attributeName="r" values="4.5;7;4.5" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="800" cy="176" r="4.5" fill="#f472b6"><animate attributeName="r" values="4.5;7;4.5" dur="2.9s" repeatCount="indefinite"/></circle>
+    </g>
+    <circle r="3.5" fill="#e6edf3" filter="url(#tight)">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M760 96 L850 62 L940 100 L900 176 L800 176 Z"/>
+    </circle>
+
+    <g class="mono" text-anchor="end">
+      <text x="960" y="228" class="kv">shell: bash &#183; zsh</text>
+      <text x="960" y="246" class="kv">stack: docker &#183; nginx &#183; caddy</text>
+      <text x="960" y="264" class="kv">focus: infra hardening</text>
+    </g>
+
+    <rect x="0" y="296" width="1000" height="4" fill="url(#neon)"/>
+    <rect x="0" y="0" width="1000" height="300" rx="18" fill="none" stroke="#1f2b3d" stroke-width="1.5"/>
+  </g>
+</svg>

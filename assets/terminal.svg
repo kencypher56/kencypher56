@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" width="1000" height="430" role="img" aria-label="Terminal readout: who Kencypher is">
+  <title>kencypher@homelab - whoami</title>
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5a0"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+      <animate attributeName="x1" values="0;0.5;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;1.5;1" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="8" y="8" width="984" height="414" rx="14"/></clipPath>
+    <clipPath id="typeA"><rect x="34" y="76" width="0" height="22"><animate attributeName="width" values="0;420;420;0" keyTimes="0;0.06;0.97;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="typeB"><rect x="34" y="286" width="0" height="22"><animate attributeName="width" values="0;0;430;430;0" keyTimes="0;0.20;0.26;0.97;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <style>
+      .m { font-family:"JetBrains Mono","Fira Code","SF Mono",Consolas,"Courier New",monospace; font-size:15px; }
+      .s { font-size:13.5px; }
+      .g { fill:#00e5a0 } .c { fill:#22d3ee } .w { fill:#e6edf3 } .d { fill:#5b6b86 }
+      .y { fill:#fbbf24 } .p { fill:#c084fc } .r { fill:#f472b6 }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      .cur { animation: blink 1.05s steps(1) infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <rect x="8" y="8" width="984" height="414" rx="14" fill="url(#tbg)"/>
+    <rect x="8" y="8" width="984" height="34" fill="#131b2e"/>
+    <circle cx="32" cy="25" r="6" fill="#ff5f57"/>
+    <circle cx="52" cy="25" r="6" fill="#febc2e"/>
+    <circle cx="72" cy="25" r="6" fill="#28c840"/>
+    <text x="500" y="30" class="m s d" text-anchor="middle">kencypher@homelab: ~ &#8212; zsh &#8212; 120&#215;32</text>
+
+    <g class="m">
+      <g clip-path="url(#typeA)">
+        <text x="34" y="92"><tspan class="g">kencypher@homelab</tspan><tspan class="d">:</tspan><tspan class="c">~</tspan><tspan class="d">$ </tspan><tspan class="w">cat .config/whoami.env</tspan></text>
+      </g>
+
+      <text x="34" y="122" opacity="0" class="s"><tspan class="p">NAME</tspan><tspan class="d">=</tspan><tspan class="y">"Muhammad Waleed Amjad"</tspan><tspan class="d">&#160;&#160;&#160;# a.k.a. kencypher</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="0.9s" repeatCount="indefinite"/></text>
+      <text x="34" y="146" opacity="0" class="s"><tspan class="p">ROLE</tspan><tspan class="d">=</tspan><tspan class="y">"System Administrator by day, automation addict by night"</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="1.15s" repeatCount="indefinite"/></text>
+      <text x="34" y="170" opacity="0" class="s"><tspan class="p">LOVES</tspan><tspan class="d">=(</tspan><tspan class="c">devops</tspan><tspan class="d"> </tspan><tspan class="c">system-administration</tspan><tspan class="d"> </tspan><tspan class="c">automation</tspan><tspan class="d"> </tspan><tspan class="r">penetration-testing</tspan><tspan class="d">)</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="1.4s" repeatCount="indefinite"/></text>
+      <text x="34" y="194" opacity="0" class="s"><tspan class="p">STACK</tspan><tspan class="d">=(</tspan><tspan class="g">python bash docker nginx caddy openvpn postgres node c++</tspan><tspan class="d">)</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="1.65s" repeatCount="indefinite"/></text>
+      <text x="34" y="218" opacity="0" class="s"><tspan class="p">HOMELAB</tspan><tspan class="d">=</tspan><tspan class="y">"self-hosted everything, one command away"</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="1.9s" repeatCount="indefinite"/></text>
+      <text x="34" y="242" opacity="0" class="s"><tspan class="p">MOTTO</tspan><tspan class="d">=</tspan><tspan class="y">"stable servers, deep tunnels, fast scripts"</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="2.15s" repeatCount="indefinite"/></text>
+
+      <g clip-path="url(#typeB)">
+        <text x="34" y="302"><tspan class="g">kencypher@homelab</tspan><tspan class="d">:</tspan><tspan class="c">~</tspan><tspan class="d">$ </tspan><tspan class="w">systemctl status kencypher</tspan></text>
+      </g>
+
+      <text x="34" y="332" opacity="0" class="s"><tspan class="g">&#9679;</tspan><tspan class="w"> kencypher.service</tspan><tspan class="d"> &#8212; builds things that run themselves</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="3.9s" repeatCount="indefinite"/></text>
+      <text x="34" y="356" opacity="0" class="s"><tspan class="d">&#160;&#160;&#160;&#160;&#160;Active:&#160;</tspan><tspan class="g">active (running)</tspan><tspan class="d"> since Sep 2021 &#8212; 14 public repos</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="4.15s" repeatCount="indefinite"/></text>
+      <text x="34" y="380" opacity="0" class="s"><tspan class="d">&#160;&#160;&#160;&#160;&#160;&#160;Tasks:&#160;</tspan><tspan class="c">shipping</tspan><tspan class="d">&#160;&#160;&#160;Memory:&#160;</tspan><tspan class="y">caffeine</tspan><tspan class="d">&#160;&#160;&#160;CPU:&#160;</tspan><tspan class="r">100%</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="4.4s" repeatCount="indefinite"/></text>
+
+      <rect x="34" y="392" width="9" height="17" fill="#00e5a0" class="cur" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.9;.94;1" dur="14s" begin="4.65s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <rect x="8" y="418" width="984" height="4" fill="url(#bar)"/>
+    <rect x="8" y="8" width="984" height="414" rx="14" fill="none" stroke="#1f2b3d" stroke-width="1.5"/>
+  </g>
+</svg>

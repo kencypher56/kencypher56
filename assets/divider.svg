@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="1000" height="24" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5a0" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00e5a0" stop-opacity=".9"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset="80%" stop-color="#818cf8" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+      <animate attributeName="x1" values="0;0.4;0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;1.4;1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="dgl" x="-50%" y="-400%" width="200%" height="900%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="10.5" width="1000" height="3" rx="1.5" fill="url(#dg)"/>
+  <g filter="url(#dgl)">
+    <circle cy="12" r="3.5" fill="#00e5a0">
+      <animate attributeName="cx" values="-20;1020" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cy="12" r="2.5" fill="#22d3ee">
+      <animate attributeName="cx" values="-20;1020" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cy="12" r="2.5" fill="#818cf8">
+      <animate attributeName="cx" values="-20;1020" dur="5s" begin="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="5s" begin="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
