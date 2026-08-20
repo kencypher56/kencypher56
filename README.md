@@ -295,20 +295,20 @@ An Interstellar‑style black hole you can push around with your cursor, built i
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=kencypher56&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00e5a0&icon_color=22d3ee&text_color=9fb3c8&ring_color=f472b6" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kencypher56&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00e5a0&text_color=9fb3c8" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/kencypher56/kencypher56/main/assets/highlights.svg" alt="Profile highlights" width="100%" />
 
-<br/>
+<br/><br/>
 
-<img height="165" src="https://streak-stats.demolab.com?user=kencypher56&hide_border=true&background=0D1117&border=1F2B3D&stroke=1F2B3D&ring=00e5a0&fire=f472b6&currStreakLabel=22d3ee&currStreakNum=e6edf3&sideNums=e6edf3&sideLabels=9fb3c8&dates=5b6b86" alt="Contribution streak" />
+<img height="200" src="https://raw.githubusercontent.com/kencypher56/kencypher56/main/assets/stats.svg" alt="GitHub statistics" />
+<img height="200" src="https://raw.githubusercontent.com/kencypher56/kencypher56/main/assets/langs.svg" alt="Most used languages" />
+
+<br/><br/>
+
+<img height="180" src="https://streak-stats.demolab.com?user=kencypher56&hide_border=true&background=0D1117&border=1F2B3D&stroke=1F2B3D&ring=00e5a0&fire=f472b6&currStreakLabel=22d3ee&currStreakNum=e6edf3&sideNums=e6edf3&sideLabels=9fb3c8&dates=5b6b86" alt="Contribution streak" />
 
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=kencypher56&bg_color=0D1117&color=9fb3c8&line=00e5a0&point=22d3ee&area_color=00e5a0&area=true&hide_border=true" alt="Contribution activity graph" width="100%" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=kencypher56&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
 
 </div>
 

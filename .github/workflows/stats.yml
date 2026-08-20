@@ -1,0 +1,43 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/gen_stats.py"
+      - ".github/workflows/stats.yml"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_USER: ${{ github.repository_owner }}
+        run: python scripts/gen_stats.py
+
+      - name: Commit if the numbers moved
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/langs.svg assets/highlights.svg
+          if git diff --staged --quiet; then
+            echo "stats unchanged - nothing to commit"
+          else
+            git commit -m "chore: refresh profile stats cards"
+            git push
+          fi
