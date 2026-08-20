@@ -2,18 +2,18 @@
   <title>connection closed cleanly</title>
   <defs>
     <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#05070d"/>
-      <stop offset="100%" stop-color="#0b1220"/>
+      <stop offset="0%" stop-color="#08090f"/>
+      <stop offset="100%" stop-color="#10131c"/>
     </linearGradient>
     <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00e5a0" stop-opacity=".55"/>
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity=".55"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity=".55"/>
+      <stop offset="0%" stop-color="#e8c26a" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#00d8f0" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#7ea8e8" stop-opacity=".55"/>
     </linearGradient>
     <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity=".35"/>
-      <stop offset="50%" stop-color="#f472b6" stop-opacity=".35"/>
-      <stop offset="100%" stop-color="#00e5a0" stop-opacity=".35"/>
+      <stop offset="0%" stop-color="#7ea8e8" stop-opacity=".35"/>
+      <stop offset="50%" stop-color="#d64358" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#e8c26a" stop-opacity=".35"/>
     </linearGradient>
     <clipPath id="ff"><rect width="1000" height="180" rx="16"/></clipPath>
     <style>
@@ -35,20 +35,20 @@
     </g>
 
     <g class="m">
-      <text x="500" y="58" text-anchor="middle" font-size="19" fill="#e6edf3">Thanks for scrolling &#8212; now go automate something.</text>
-      <text x="500" y="88" text-anchor="middle" font-size="13.5" fill="#5b6b86">
-        <tspan fill="#00e5a0">kencypher@homelab</tspan><tspan>:</tspan><tspan fill="#22d3ee">~</tspan><tspan>$ </tspan><tspan fill="#9fb3c8">exit</tspan>
+      <text x="500" y="58" text-anchor="middle" font-size="19" fill="#ece6da">Thanks for scrolling. Now go make something run all night.</text>
+      <text x="500" y="88" text-anchor="middle" font-size="13.5" fill="#6b7689">
+        <tspan fill="#e8c26a">kencypher@homelab</tspan><tspan>:</tspan><tspan fill="#00d8f0">~</tspan><tspan>$ </tspan><tspan fill="#a9b3c6">exit</tspan>
       </text>
-      <rect x="596" y="76" width="8" height="15" fill="#00e5a0" class="cur"/>
+      <rect x="596" y="76" width="8" height="15" fill="#e8c26a" class="cur"/>
     </g>
 
     <g>
-      <circle cx="60" cy="40" r="2" fill="#22d3ee"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
-      <circle cx="140" cy="24" r="1.6" fill="#00e5a0"><animate attributeName="opacity" values=".2;1;.2" dur="4.2s" repeatCount="indefinite"/></circle>
-      <circle cx="900" cy="46" r="2" fill="#818cf8"><animate attributeName="opacity" values=".2;1;.2" dur="3.6s" repeatCount="indefinite"/></circle>
-      <circle cx="820" cy="26" r="1.6" fill="#f472b6"><animate attributeName="opacity" values=".2;1;.2" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="60" cy="40" r="2" fill="#00d8f0"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="140" cy="24" r="1.6" fill="#e8c26a"><animate attributeName="opacity" values=".2;1;.2" dur="4.2s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="46" r="2" fill="#7ea8e8"><animate attributeName="opacity" values=".2;1;.2" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle cx="820" cy="26" r="1.6" fill="#d64358"><animate attributeName="opacity" values=".2;1;.2" dur="5s" repeatCount="indefinite"/></circle>
     </g>
 
-    <rect width="1000" height="180" rx="16" fill="none" stroke="#1f2b3d" stroke-width="1.5"/>
+    <rect width="1000" height="180" rx="16" fill="none" stroke="#2c3243" stroke-width="1.5"/>
   </g>
 </svg>

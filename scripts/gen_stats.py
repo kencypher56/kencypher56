@@ -20,18 +20,18 @@ from datetime import datetime, timezone
 USER = os.environ.get("STATS_USER", "kencypher56")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets")
 
-BG = "#0d1117"
-BORDER = "#1f2b3d"
-ACCENT = "#00e5a0"
-CYAN = "#22d3ee"
-INDIGO = "#818cf8"
-PINK = "#f472b6"
-AMBER = "#fbbf24"
-TEXT = "#e6edf3"
-MUTED = "#9fb3c8"
-DIM = "#5b6b86"
+BG = "#10131c"
+BORDER = "#2c3243"
+ACCENT = "#e8c26a"
+CYAN = "#00d8f0"
+INDIGO = "#7ea8e8"
+PINK = "#d64358"
+AMBER = "#d9a441"
+TEXT = "#ece6da"
+MUTED = "#a9b3c6"
+DIM = "#6b7689"
 
-CYCLE = [ACCENT, CYAN, INDIGO, PINK, AMBER, "#c084fc"]
+CYCLE = [ACCENT, CYAN, INDIGO, PINK, AMBER, "#8fb4ee"]
 
 LANG_COLORS = {
     "Python": "#3572A5", "JavaScript": "#f1e05a", "HTML": "#e34c26",
@@ -168,7 +168,7 @@ def langs_card(d):
         color = LANG_COLORS.get(lang, CYCLE[idx % len(CYCLE)])
         s += '<text x="22" y="%d" class="m k" fill="%s">%s</text>\n' % (y, TEXT, esc(lang))
         s += '<text x="%d" y="%d" class="m k" text-anchor="end">%.1f%%</text>\n' % (w - 22, y, pct)
-        s += '<rect x="%d" y="%d" width="%d" height="7" rx="3.5" fill="#16233a"/>\n' % (bar_x, y + 6, bar_w)
+        s += '<rect x="%d" y="%d" width="%d" height="7" rx="3.5" fill="#1c2230"/>\n' % (bar_x, y + 6, bar_w)
         s += ('<rect x="%d" y="%d" width="0" height="7" rx="3.5" fill="%s">'
               '<animate attributeName="width" values="0;%.1f" dur="1.1s" begin="%.2fs" fill="freeze"/></rect>\n'
               % (bar_x, y + 6, color, bar_w * pct / 100, 0.2 + idx * 0.12))

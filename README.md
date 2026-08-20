@@ -24,13 +24,13 @@
 </div>
 
 > **System Administrator by day, automation addict by night.**
-> I like my servers stable, my VPN tunnels deep, and my scripts fast.
+> I like my servers stable, my tunnels deep, my scripts fast — and my uptime indecent.
 
-- ⚙️ **DevOps** — containerised everything, reverse proxies, auto‑TLS, one‑command deploys
-- 🖥️ **System Administration** — Linux boxes, services, storage, networking, keeping uptime boring
-- 🤖 **Automation** — if I do it twice by hand, the third time is a script
-- 🛡️ **Penetration Testing** — I break my own stack first, so nobody else gets the first try
-- 📱 **Android, off-store** — signed APKs with an embedded Python runtime, built for things the Play Store won't distribute
+- ⚙️ **DevOps** — containers wrapped tight, TLS on before anything gets touched, one command and it's up
+- 🖥️ **System Administration** — Linux boxes kept warm, fed and humming; the uptime is boring on purpose
+- 🤖 **Automation** — twice by hand is once too many; the third time it runs itself, all night, unsupervised
+- 🛡️ **Penetration Testing** — I get into my own stack first, so nobody else gets to go first
+- 📱 **Android, off-store** — signed APKs too filthy for the Play Store, sideloaded straight onto the device
 - 🧪 Currently sharpening: **container hardening**, **network segmentation**, **self‑hosted AI pipelines**
 
 <div align="center">
@@ -53,23 +53,27 @@
 
 **⚙️ Infra &amp; Ops**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Systemd](https://img.shields.io/badge/systemd-30B980?style=flat-square&logo=linux&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-10131c?style=flat-square&logo=docker&logoColor=e8c26a)
+![Caddy](https://img.shields.io/badge/Caddy-10131c?style=flat-square&logo=caddy&logoColor=e8c26a)
+![Nginx](https://img.shields.io/badge/Nginx-10131c?style=flat-square&logo=nginx&logoColor=e8c26a)
+![OpenVPN](https://img.shields.io/badge/OpenVPN-10131c?style=flat-square&logo=openvpn&logoColor=e8c26a)
+![Linux](https://img.shields.io/badge/Linux-10131c?style=flat-square&logo=linux&logoColor=e8c26a)
+![systemd](https://img.shields.io/badge/systemd-10131c?style=flat-square&logo=linux&logoColor=e8c26a)
+
+*Wrapped tight behind a reverse proxy, TLS on before anything touches it. One command takes a bare host all the way to running — then it stays up, night after night, and never once asks for attention.*
 
 </td>
 <td width="50%" valign="top">
 
 **🤖 Automation &amp; Scripting**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Cron](https://img.shields.io/badge/cron-5b6b86?style=flat-square&logo=clockify&logoColor=white)
-![Make](https://img.shields.io/badge/Make-427819?style=flat-square&logo=cmake&logoColor=white)
+![Python](https://img.shields.io/badge/Python-10131c?style=flat-square&logo=python&logoColor=00d8f0)
+![Bash](https://img.shields.io/badge/Bash-10131c?style=flat-square&logo=gnubash&logoColor=00d8f0)
+![GitHub Actions](https://img.shields.io/badge/Actions-10131c?style=flat-square&logo=githubactions&logoColor=00d8f0)
+![cron](https://img.shields.io/badge/cron-10131c?style=flat-square&logo=clockify&logoColor=00d8f0)
+![Make](https://img.shields.io/badge/Make-10131c?style=flat-square&logo=cmake&logoColor=00d8f0)
+
+*Twice by hand is already one time too many. By the third it's a script — scheduled, patient, working through the night on its own and leaving the logs out for me in the morning.*
 
 </td>
 </tr>
@@ -78,29 +82,31 @@
 
 **📱 Mobile &amp; Sideloaded APKs**
 
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=black)
-![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
-![Chaquopy](https://img.shields.io/badge/Chaquopy-3776AB?style=flat-square&logo=python&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
-![Media3](https://img.shields.io/badge/ExoPlayer%20%2F%20Media3-3DDC84?style=flat-square&logo=android&logoColor=black)
-![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
-![ADB](https://img.shields.io/badge/ADB%20wireless-A4C639?style=flat-square&logo=android&logoColor=black)
+![Android](https://img.shields.io/badge/Android-10131c?style=flat-square&logo=android&logoColor=d64358)
+![Capacitor](https://img.shields.io/badge/Capacitor-10131c?style=flat-square&logo=capacitor&logoColor=d64358)
+![Chaquopy](https://img.shields.io/badge/Chaquopy-10131c?style=flat-square&logo=python&logoColor=d64358)
+![Gradle](https://img.shields.io/badge/Gradle-10131c?style=flat-square&logo=gradle&logoColor=d64358)
+![Media3](https://img.shields.io/badge/ExoPlayer%20%2F%20Media3-10131c?style=flat-square&logo=android&logoColor=d64358)
+![yt-dlp](https://img.shields.io/badge/yt--dlp-10131c?style=flat-square&logo=youtube&logoColor=d64358)
+![ADB](https://img.shields.io/badge/ADB%20wireless-10131c?style=flat-square&logo=android&logoColor=d64358)
 
-*Native Android apps with a full Python runtime embedded in the APK — offline media pipelines, on-device inference and background downloads. The kind of thing the Play Store's policies won't host, so it ships signed and sideloaded instead.*
+*A full Python runtime slipped inside the APK — offline media pipelines, on-device inference, downloads that keep going quietly in the background. Far too filthy for the Play Store's policies, so it ships signed and sideloaded, straight onto the device.*
 
 </td>
 <td width="50%" valign="top">
 
 **🧱 Build, Media &amp; On‑Device AI**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-10131c?style=flat-square&logo=nodedotjs&logoColor=7ea8e8)
+![C++](https://img.shields.io/badge/C++-10131c?style=flat-square&logo=cplusplus&logoColor=7ea8e8)
+![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-10131c?style=flat-square&logo=onnx&logoColor=7ea8e8)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-10131c?style=flat-square&logo=ffmpeg&logoColor=7ea8e8)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-10131c?style=flat-square&logo=postgresql&logoColor=7ea8e8)
+![SQLite](https://img.shields.io/badge/SQLite-10131c?style=flat-square&logo=sqlite&logoColor=7ea8e8)
+![FastAPI](https://img.shields.io/badge/FastAPI-10131c?style=flat-square&logo=fastapi&logoColor=7ea8e8)
+![Vite](https://img.shields.io/badge/Vite-10131c?style=flat-square&logo=vite&logoColor=7ea8e8)
+
+*Everything happens locally, with the lights off — no API keys, no cloud leaning over my shoulder, nothing leaving the machine. What happens on the device stays on the device.*
 
 </td>
 </tr>
@@ -133,9 +139,9 @@
 #### [🐳 cypher-opensource](https://github.com/kencypher56/cypher-opensource)
 One‑command self‑hosting arsenal. Detects the host, composes the stack, wires **Caddy** in front with automatic TLS, and hands back a running service — no YAML archaeology required.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Caddy](https://img.shields.io/badge/-Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=e8c26a)
+![Docker](https://img.shields.io/badge/-Docker-10131c?style=flat-square&logo=docker&logoColor=e8c26a)
+![Caddy](https://img.shields.io/badge/-Caddy-10131c?style=flat-square&logo=caddy&logoColor=e8c26a)
 
 </td>
 <td width="50%" valign="top">
@@ -143,9 +149,9 @@ One‑command self‑hosting arsenal. Detects the host, composes the stack, wire
 #### [🔐 cypher-openvpn-loadbalancer](https://github.com/kencypher56/cypher-openvpn-loadbalancer)
 Spreads clients across a pool of **OpenVPN** servers, tracks live connection counts, and rebalances on the fly — with an interactive CLI and a browser dashboard. [Docs →](https://kencypher56.github.io/cypher-openvpn-loadbalancer/)
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![OpenVPN](https://img.shields.io/badge/-OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white)
-![Networking](https://img.shields.io/badge/-Networking-22d3ee?style=flat-square)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=e8c26a)
+![OpenVPN](https://img.shields.io/badge/-OpenVPN-10131c?style=flat-square&logo=openvpn&logoColor=e8c26a)
+![Networking](https://img.shields.io/badge/-Networking-10131c?style=flat-square)
 
 </td>
 </tr>
@@ -155,9 +161,9 @@ Spreads clients across a pool of **OpenVPN** servers, tracks live connection cou
 #### [🗄️ cypher-server](https://github.com/kencypher56/cypher-server)
 A self‑hosted file server that doesn't look like 2004. Live filesystem monitoring, resumable + batch downloads, built‑in PDF/video/audio/image viewers, four themes, offline‑first service worker.
 
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![PWA](https://img.shields.io/badge/-PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-10131c?style=flat-square&logo=nodedotjs&logoColor=e8c26a)
+![Three.js](https://img.shields.io/badge/-Three.js-10131c?style=flat-square&logo=threedotjs&logoColor=e8c26a)
+![PWA](https://img.shields.io/badge/-PWA-10131c?style=flat-square&logo=pwa&logoColor=e8c26a)
 
 </td>
 <td width="50%" valign="top">
@@ -165,9 +171,9 @@ A self‑hosted file server that doesn't look like 2004. Live filesystem monitor
 #### [📡 cypher-share](https://github.com/kencypher56/cypher-share)
 Peer‑to‑peer file transfer across your LAN. A 6‑digit PIN handshake replaces IP hunting — no cloud, no USB sticks, no accounts. Just two machines and a wire.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![P2P](https://img.shields.io/badge/-P2P-00e5a0?style=flat-square)
-![CLI](https://img.shields.io/badge/-CLI-5b6b86?style=flat-square&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=e8c26a)
+![P2P](https://img.shields.io/badge/-P2P-10131c?style=flat-square)
+![CLI](https://img.shields.io/badge/-CLI-10131c?style=flat-square&logo=gnubash&logoColor=e8c26a)
 
 </td>
 </tr>
@@ -182,9 +188,9 @@ Peer‑to‑peer file transfer across your LAN. A 6‑digit PIN handshake replac
 #### [📋 cypher-clipboard](https://github.com/kencypher56/cypher-clipboard)
 Native clipboard history for Linux, written in **C++**. Works under both **X11** and **Wayland**, so the thing you copied twenty minutes ago is still there.
 
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![GTK](https://img.shields.io/badge/-GTK-7C4DFF?style=flat-square&logo=gtk&logoColor=white)
-![Wayland](https://img.shields.io/badge/-Wayland-FF9E0F?style=flat-square&logo=wayland&logoColor=black)
+![C++](https://img.shields.io/badge/-C++-10131c?style=flat-square&logo=cplusplus&logoColor=00d8f0)
+![GTK](https://img.shields.io/badge/-GTK-10131c?style=flat-square&logo=gtk&logoColor=00d8f0)
+![Wayland](https://img.shields.io/badge/-Wayland-10131c?style=flat-square&logo=wayland&logoColor=00d8f0)
 
 </td>
 <td width="50%" valign="top">
@@ -192,8 +198,8 @@ Native clipboard history for Linux, written in **C++**. Works under both **X11**
 #### [🍝 copy-pasta](https://github.com/kencypher56/copy-pasta)
 `cp` and `mv` with manners — live progress bars, caching, directory‑aware transfers, and a CLI that tells you what it's actually doing.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![CLI](https://img.shields.io/badge/-CLI-5b6b86?style=flat-square&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=00d8f0)
+![CLI](https://img.shields.io/badge/-CLI-10131c?style=flat-square&logo=gnubash&logoColor=00d8f0)
 
 </td>
 </tr>
@@ -203,9 +209,9 @@ Native clipboard history for Linux, written in **C++**. Works under both **X11**
 #### [🔻 cypher-downloader](https://github.com/kencypher56/cypher-downloader)
 Cross‑platform media downloader with an animated GUI, multi‑platform sources, batch queues, format conversion and real‑time progress. Runs on Windows, Linux and macOS.
 
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-10131c?style=flat-square&logo=nodedotjs&logoColor=00d8f0)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=00d8f0)
+![Tailwind](https://img.shields.io/badge/-Tailwind-10131c?style=flat-square&logo=tailwindcss&logoColor=00d8f0)
 
 </td>
 <td width="50%" valign="top">
@@ -213,8 +219,8 @@ Cross‑platform media downloader with an animated GUI, multi‑platform sources
 #### [🎨 cypher-imagetotext](https://github.com/kencypher56/cypher-imagetotext)
 Turns any image into ASCII art with real‑time density, charset and theme controls. Because sometimes the terminal deserves nice things too.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PySide6](https://img.shields.io/badge/-PySide6-41CD52?style=flat-square&logo=qt&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=00d8f0)
+![PySide6](https://img.shields.io/badge/-PySide6-10131c?style=flat-square&logo=qt&logoColor=00d8f0)
 
 </td>
 </tr>
@@ -229,9 +235,9 @@ Turns any image into ASCII art with real‑time density, charset and theme contr
 #### [🔊 cypher-aibook](https://github.com/kencypher56/cypher-aibook)
 Open‑source text‑to‑speech reader. Drop in a PDF, DOCX or EPUB and get natural narration streamed back in real time via **FastAPI** + the Web Audio API. Tacotron2 · GlowTTS · VITS.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![TTS](https://img.shields.io/badge/-TTS-f472b6?style=flat-square)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=d64358)
+![FastAPI](https://img.shields.io/badge/-FastAPI-10131c?style=flat-square&logo=fastapi&logoColor=d64358)
+![TTS](https://img.shields.io/badge/-TTS-10131c?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
@@ -239,8 +245,8 @@ Open‑source text‑to‑speech reader. Drop in a PDF, DOCX or EPUB and get nat
 #### [📖 cypher-aibookgenerator](https://github.com/kencypher56/cypher-aibookgenerator)
 One prompt in, a full formatted book out — generated entirely by **local LLMs**, so nothing leaves the machine.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=d64358)
+![Ollama](https://img.shields.io/badge/-Ollama-10131c?style=flat-square&logo=ollama&logoColor=d64358)
 
 </td>
 </tr>
@@ -250,9 +256,9 @@ One prompt in, a full formatted book out — generated entirely by **local LLMs*
 #### [🎤 VocalXInstruement-Separator](https://github.com/kencypher56/VocalXInstruement-Separator)
 Surgically splits vocals from instruments in any track — or rips the audio straight out of a video — **CPU‑only**, powered by Spleeter and FFmpeg.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Spleeter](https://img.shields.io/badge/-Spleeter-8b5cf6?style=flat-square)
-![FFmpeg](https://img.shields.io/badge/-FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=d64358)
+![Spleeter](https://img.shields.io/badge/-Spleeter-10131c?style=flat-square)
+![FFmpeg](https://img.shields.io/badge/-FFmpeg-10131c?style=flat-square&logo=ffmpeg&logoColor=d64358)
 
 </td>
 <td width="50%" valign="top">
@@ -260,9 +266,9 @@ Surgically splits vocals from instruments in any track — or rips the audio str
 #### [⚔️ cypher-EldenRing-build-guide](https://github.com/kencypher56/cypher-EldenRing-build-guide)
 `deepseek-r1` running on **Ollama** designs your Elden Ring build, then **ReportLab** prints it as a proper PDF guide. Offline, no API keys, no tarnished left behind.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![PDF](https://img.shields.io/badge/-ReportLab-d4af37?style=flat-square)
+![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=d64358)
+![Ollama](https://img.shields.io/badge/-Ollama-10131c?style=flat-square&logo=ollama&logoColor=d64358)
+![PDF](https://img.shields.io/badge/-ReportLab-10131c?style=flat-square)
 
 </td>
 </tr>
@@ -277,9 +283,9 @@ Surgically splits vocals from instruments in any track — or rips the audio str
 #### [🛡️ cypher-hr](https://github.com/kencypher56/cypher-hr)
 A fully transparent, free and open‑source **HR management system** — employees, bulk CSV onboarding, leave workflows and an admin console. Vanilla JS front end, **PostgreSQL** behind it.
 
-![JavaScript](https://img.shields.io/badge/-Vanilla_JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-Vanilla_JS-10131c?style=flat-square&logo=javascript&logoColor=7ea8e8)
+![Node.js](https://img.shields.io/badge/-Node.js-10131c?style=flat-square&logo=nodedotjs&logoColor=7ea8e8)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-10131c?style=flat-square&logo=postgresql&logoColor=7ea8e8)
 
 </td>
 <td width="50%" valign="top">
@@ -287,9 +293,9 @@ A fully transparent, free and open‑source **HR management system** — employe
 #### [🌌 kencypherportfolio](https://github.com/kencypher56/kencypherportfolio)
 An Interstellar‑style black hole you can push around with your cursor, built in **Three.js** — accretion disk, photon rings, particle debris field. [Live site →](https://kencypherportfolio.vercel.app/)
 
-![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Three.js](https://img.shields.io/badge/-Three.js-10131c?style=flat-square&logo=threedotjs&logoColor=7ea8e8)
+![Tailwind](https://img.shields.io/badge/-Tailwind-10131c?style=flat-square&logo=tailwindcss&logoColor=7ea8e8)
+![Vercel](https://img.shields.io/badge/-Vercel-10131c?style=flat-square&logo=vercel&logoColor=7ea8e8)
 
 </td>
 </tr>
@@ -346,7 +352,7 @@ An Interstellar‑style black hole you can push around with your cursor, built i
 
 <br/><br/>
 
-<em>Open to talking about self‑hosting, container hardening, VPN topology,<br/>and any workflow that deserves to be replaced by a script.</em>
+<em>Always up for talking self‑hosting, container hardening, VPN topology,<br/>and any workflow that's quietly begging to be replaced by a script.</em>
 
 <br/>
 
