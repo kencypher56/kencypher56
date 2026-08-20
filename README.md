@@ -30,6 +30,7 @@
 - 🖥️ **System Administration** — Linux boxes, services, storage, networking, keeping uptime boring
 - 🤖 **Automation** — if I do it twice by hand, the third time is a script
 - 🛡️ **Penetration Testing** — I break my own stack first, so nobody else gets the first try
+- 📱 **Android, off-store** — signed APKs with an embedded Python runtime, built for things the Play Store won't distribute
 - 🧪 Currently sharpening: **container hardening**, **network segmentation**, **self‑hosted AI pipelines**
 
 <div align="center">
@@ -42,7 +43,7 @@
 
 <img src="https://skillicons.dev/icons?i=python,bash,linux,docker,nginx,postgres,nodejs,js&perline=8" alt="Python, Bash, Linux, Docker, Nginx, PostgreSQL, Node.js, JavaScript" />
 <br/>
-<img src="https://skillicons.dev/icons?i=cpp,fastapi,tailwind,threejs,git,github,githubactions,vscode&perline=8" alt="C++, FastAPI, Tailwind, Three.js, Git, GitHub, GitHub Actions, VS Code" />
+<img src="https://skillicons.dev/icons?i=cpp,androidstudio,gradle,fastapi,tailwind,threejs,git,githubactions&perline=8" alt="C++, Android Studio, Gradle, FastAPI, Tailwind, Three.js, Git, GitHub Actions" />
 
 </div>
 
@@ -75,24 +76,31 @@
 <tr>
 <td width="50%" valign="top">
 
-**🛡️ Security &amp; Networking**
+**📱 Mobile &amp; Sideloaded APKs**
 
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square&logo=nmap&logoColor=white)
-![Kali](https://img.shields.io/badge/Kali-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![TLS](https://img.shields.io/badge/TLS%2FSSL-003A70?style=flat-square&logo=letsencrypt&logoColor=white)
-![Firewall](https://img.shields.io/badge/iptables%20%2F%20ufw-C0392B?style=flat-square&logo=gnubash&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=black)
+![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
+![Chaquopy](https://img.shields.io/badge/Chaquopy-3776AB?style=flat-square&logo=python&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
+![Media3](https://img.shields.io/badge/ExoPlayer%20%2F%20Media3-3DDC84?style=flat-square&logo=android&logoColor=black)
+![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
+![ADB](https://img.shields.io/badge/ADB%20wireless-A4C639?style=flat-square&logo=android&logoColor=black)
+
+*Native Android apps with a full Python runtime embedded in the APK — offline media pipelines, on-device inference and background downloads. The kind of thing the Play Store's policies won't host, so it ships signed and sideloaded instead.*
 
 </td>
 <td width="50%" valign="top">
 
-**🧱 Build &amp; Data**
+**🧱 Build, Media &amp; On‑Device AI**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 </td>
 </tr>
