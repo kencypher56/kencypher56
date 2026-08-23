@@ -22,7 +22,7 @@
 <g>
 <circle cx="30" cy="115" r="3.5" fill="#00d8f0"><animate attributeName="opacity" values="1;.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
 <text x="44" y="120" class="m k">Total forks</text>
-<text x="458" y="120" class="m v" text-anchor="end" fill="#00d8f0">0</text>
+<text x="458" y="120" class="m v" text-anchor="end" fill="#00d8f0">1</text>
 </g>
 <g>
 <circle cx="30" cy="140" r="3.5" fill="#7ea8e8"><animate attributeName="opacity" values="1;.3;1" dur="2.9s" repeatCount="indefinite"/></circle>
@@ -34,6 +34,6 @@
 <text x="44" y="170" class="m k">Languages in use</text>
 <text x="458" y="170" class="m v" text-anchor="end" fill="#d64358">5</text>
 </g>
-<text x="22" y="201" class="m s">UPDATED 22 AUG 2026</text>
+<text x="22" y="201" class="m s">UPDATED 23 AUG 2026</text>
 <rect x="0" y="212" width="480" height="3" fill="url(#ln)"/>
 <rect x="0" y="0" width="480" height="215" rx="14" fill="none" stroke="#2c3243" stroke-width="1.5"/></g></svg>
