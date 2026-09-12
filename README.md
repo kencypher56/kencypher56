@@ -346,7 +346,7 @@ An Interstellar‑style black hole you can push around with your cursor, built i
 
 <div align="center">
 
-<a href="https://kencypherportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-05070d?style=for-the-badge&logo=vercel&logoColor=00e5a0" alt="Portfolio" /></a>
+<a href="https://cypherstore.netlify.app"><img src="https://img.shields.io/badge/Cypher%20Store-05070d?style=for-the-badge&logo=netlify&logoColor=00e5a0" alt="Cypher Store" /></a>
 <a href="https://github.com/kencypher56"><img src="https://img.shields.io/badge/GitHub-05070d?style=for-the-badge&logo=github&logoColor=22d3ee" alt="GitHub" /></a>
 <a href="mailto:kencypher56@gmail.com"><img src="https://img.shields.io/badge/Email-05070d?style=for-the-badge&logo=gmail&logoColor=f472b6" alt="Email" /></a>
 
@@ -357,5 +357,24 @@ An Interstellar‑style black hole you can push around with your cursor, built i
 <br/>
 
 <img src="https://raw.githubusercontent.com/kencypher56/kencypher56/main/assets/footer.svg" alt="Thanks for scrolling" width="100%" />
+
+</div>
+
+
+---
+
+<div align="center">
+
+### Where the apps live
+
+Every Cypher app — Music, BOT, Contacts, Expenses, HR — is published at
+**[Cypher Store](https://cypherstore.netlify.app)**. Android, Windows and Linux, free, no account.
+
+That is the only true source for them. A copy of a Cypher app from anywhere
+else is not one I published and not one I can vouch for.
+
+**Free to use. Not open source.** Made by Kencypher (Muhammad Waleed Amjad),
+sole author and copyright holder. Run it, read it, learn from it — but do not
+re-upload it, rebrand it, sell it, or publish it as your own.
 
 </div>
