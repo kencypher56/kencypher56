@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="https://kencypherportfolio.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-00e5a0?style=for-the-badge&logo=vercel&logoColor=05070d" alt="Portfolio" /></a>
+<a href="https://cypherstore.vercel.app"><img src="https://img.shields.io/badge/CYPHER_STORE-00e5a0?style=for-the-badge&logo=vercel&logoColor=05070d" alt="Cypher Store" /></a>
 <a href="https://github.com/kencypher56?tab=repositories"><img src="https://img.shields.io/badge/14_PUBLIC_REPOS-22d3ee?style=for-the-badge&logo=github&logoColor=05070d" alt="Repositories" /></a>
 <a href="mailto:kencypher56@gmail.com"><img src="https://img.shields.io/badge/EMAIL-818cf8?style=for-the-badge&logo=gmail&logoColor=05070d" alt="Email" /></a>
 <img src="https://komarev.com/ghpvc/?username=kencypher56&label=PROFILE+VIEWS&color=f472b6&style=for-the-badge" alt="Profile views" />
@@ -300,7 +300,7 @@ Surgically splits vocals from instruments in any track — or rips the audio str
 <td width="50%" valign="top">
 
 #### [🛡️ Cypher HR](https://cypherstore.vercel.app/projects/cypher-hr)
-A fully transparent, free and open‑source **HR management system** — employees, bulk CSV onboarding, leave workflows and an admin console. Vanilla JS front end, **PostgreSQL** behind it.
+A self-hosted **HR system** — employees, bulk CSV onboarding, leave workflows, payroll and an admin console, with a ZKTeco biometric terminal read over the network. Vanilla JS front end, **PostgreSQL** behind it. Free to use; the source is not published.
 
 ![JavaScript](https://img.shields.io/badge/-Vanilla_JS-10131c?style=flat-square&logo=javascript&logoColor=7ea8e8)
 ![Node.js](https://img.shields.io/badge/-Node.js-10131c?style=flat-square&logo=nodedotjs&logoColor=7ea8e8)
@@ -310,7 +310,7 @@ A fully transparent, free and open‑source **HR management system** — employe
 <td width="50%" valign="top">
 
 #### [🌌 Cypher Store](https://cypherstore.vercel.app)
-An Interstellar‑style black hole you can push around with your cursor, built in **Three.js** — accretion disk, photon rings, particle debris field. [Live site →](https://kencypherportfolio.vercel.app/)
+The shop itself. Ten themes, each with its own **Three.js** scene, typeface and voice — the same shelves described by ten different people, in light or dark. Static HTML, no tracking, no account. [Live site →](https://cypherstore.vercel.app)
 
 ![Three.js](https://img.shields.io/badge/-Three.js-10131c?style=flat-square&logo=threedotjs&logoColor=7ea8e8)
 ![Tailwind](https://img.shields.io/badge/-Tailwind-10131c?style=flat-square&logo=tailwindcss&logoColor=7ea8e8)
