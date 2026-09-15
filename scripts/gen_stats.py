@@ -2,8 +2,9 @@
 """Generate self-hosted stats SVGs from the GitHub API.
 
 The public github-readme-stats and github-profile-trophy instances go down
-(503 DEPLOYMENT_PAUSED / 402 DEPLOYMENT_DISABLED), which leaves broken images
-on the profile. These cards are rendered here and committed to the repo, so
+(503 DEPLOYMENT_PAUSED) go down, and
+github-readme-activity-graph now answers 402 DEPLOYMENT_DISABLED outright,
+which leaves broken images on the profile. These cards are rendered here and committed to the repo, so
 they render from raw.githubusercontent.com and never depend on a third party.
 
 Run locally:   python scripts/gen_stats.py
@@ -13,6 +14,7 @@ In Actions:    GITHUB_TOKEN is picked up automatically for a higher rate limit.
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -56,6 +58,28 @@ def api(path):
         return json.load(r)
 
 
+def api_stats(path, tries=4):
+    """GitHub's statistics endpoints answer 202 while they compute.
+
+    The first request for a repository whose stats are not cached returns
+    202 and an empty body. The documented behaviour is to ask again; if it
+    is still not ready after a few goes, that repository is skipped rather
+    than the whole card failing.
+    """
+    for attempt in range(tries):
+        try:
+            data = api(path)
+        except urllib.error.HTTPError as e:
+            if e.code in (202, 204):
+                time.sleep(2 + attempt * 2)
+                continue
+            raise
+        if data:
+            return data
+        time.sleep(2 + attempt * 2)
+    return []
+
+
 def esc(s):
     return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
@@ -82,6 +106,18 @@ def collect():
         except urllib.error.HTTPError as e:
             print("  ! languages for %s: %s" % (r["name"], e), file=sys.stderr)
 
+    # Weekly commit counts, summed over every owned repository.
+    weeks = [0] * 52
+    for r in own:
+        try:
+            series = api_stats("/repos/%s/%s/stats/commit_activity" % (USER, r["name"]))
+        except urllib.error.HTTPError as e:
+            print("  ! commit activity for %s: %s" % (r["name"], e), file=sys.stderr)
+            continue
+        # The endpoint returns the last 52 weeks, oldest first.
+        for i, w in enumerate(series[-52:]):
+            weeks[i] += w.get("total", 0)
+
     created = datetime.strptime(user["created_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
     years = (datetime.now(timezone.utc) - created).days / 365.25
 
@@ -92,6 +128,7 @@ def collect():
         "followers": user.get("followers", 0),
         "following": user.get("following", 0),
         "langs": sorted(totals.items(), key=lambda kv: -kv[1]),
+        "weeks": weeks,
         "bytes": sum(totals.values()),
         "years": years,
         "since": created.strftime("%b %Y"),
@@ -203,14 +240,97 @@ def highlights_card(d):
     return s
 
 
+def activity_card(d):
+    """Commits per week for the last year, as an area under a line.
+
+    Deliberately the same shape as the service this replaces, so the
+    profile looks the way it did before that went down.
+    """
+    w, h = 880, 230
+    weeks = d["weeks"]
+    pad_l, pad_r, pad_t, pad_b = 46, 18, 44, 34
+    plot_w = w - pad_l - pad_r
+    plot_h = h - pad_t - pad_b
+    peak = max(weeks) if any(weeks) else 1
+
+    def pt(i, v):
+        x = pad_l + (plot_w * i / max(1, len(weeks) - 1))
+        y = pad_t + plot_h - (plot_h * v / peak)
+        return x, y
+
+    pts = [pt(i, v) for i, v in enumerate(weeks)]
+
+    s = head(w, h, "Commit activity for %s" % USER)
+    s += ('<defs><linearGradient id="ar" x1="0" y1="0" x2="0" y2="1">'
+          '<stop offset="0%%" stop-color="%s" stop-opacity=".45"/>'
+          '<stop offset="100%%" stop-color="%s" stop-opacity="0"/>'
+          '</linearGradient></defs>\n' % (CYAN, CYAN))
+    s += '<text x="%d" y="26" class="m t">Commits per week</text>\n' % pad_l
+    s += ('<text x="%d" y="26" class="m s" text-anchor="end">last 52 weeks'
+          '</text>\n' % (w - pad_r))
+
+    # Four horizontal guides, labelled, so the shape has a scale.
+    for k in range(5):
+        v = peak * k / 4
+        y = pad_t + plot_h - (plot_h * k / 4)
+        s += ('<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" stroke="%s" '
+              'stroke-opacity=".28" stroke-width="1"/>\n'
+              % (pad_l, y, w - pad_r, y, BORDER))
+        s += ('<text x="%d" y="%.1f" class="m s" text-anchor="end">%d</text>\n'
+              % (pad_l - 8, y + 3.5, round(v)))
+
+    area = " ".join("%.1f,%.1f" % p for p in pts)
+    s += ('<polygon points="%d,%d %s %d,%d" fill="url(#ar)"/>\n'
+          % (pad_l, pad_t + plot_h, area, pad_l + plot_w, pad_t + plot_h))
+    s += ('<polyline points="%s" fill="none" stroke="%s" stroke-width="2.2" '
+          'stroke-linejoin="round" stroke-linecap="round"/>\n' % (area, CYAN))
+
+    # A dot every fourth week, and always on the busiest one.
+    busiest = weeks.index(max(weeks)) if any(weeks) else 0
+    for i, (x, y) in enumerate(pts):
+        if i % 4 and i != busiest:
+            continue
+        colour = ACCENT if i == busiest else INDIGO
+        s += ('<circle cx="%.1f" cy="%.1f" r="%.1f" fill="%s"/>\n'
+              % (x, y, 3.2 if i == busiest else 2.1, colour))
+    if any(weeks):
+        bx, by = pts[busiest]
+        s += ('<text x="%.1f" y="%.1f" class="m" font-size="11" font-weight="700" '
+              'fill="%s" text-anchor="middle">%d</text>\n'
+              % (bx, max(pad_t - 4, by - 9), ACCENT, weeks[busiest]))
+
+    total = sum(weeks)
+    s += ('<text x="%d" y="%d" class="m s">%d commits this year \u00b7 '
+          'busiest week %d \u00b7 updated %s</text>\n'
+          % (pad_l, h - 12, total, peak, esc(d["updated"])))
+    s += foot(w, h)
+    return s
+
+
 def main():
     print("fetching GitHub data for %s ..." % USER)
     d = collect()
     print("  repos=%(repos)d stars=%(stars)d forks=%(forks)d followers=%(followers)d" % d)
     print("  languages: %s" % ", ".join(l for l, _ in d["langs"][:6]))
+    print("  commits in the last 52 weeks: %d" % sum(d["weeks"]))
     os.makedirs(OUT, exist_ok=True)
-    for name, svg in (("stats", stats_card(d)), ("langs", langs_card(d)),
-                      ("highlights", highlights_card(d))):
+    cards = [("stats", stats_card(d)), ("langs", langs_card(d)),
+             ("highlights", highlights_card(d))]
+
+    # Only draw the graph if there is something to draw.
+    #
+    # The statistics endpoints are rate limited separately and answer 403
+    # once the hour's budget is gone, which leaves every week at zero. A
+    # card drawn from that is a flat line along the axis -- indistinguish-
+    # able from a year of no work, and it would overwrite a good one. When
+    # there is no data, keep whatever is already committed.
+    if any(d["weeks"]):
+        cards.append(("activity", activity_card(d)))
+    else:
+        print("  ! no commit activity returned (rate limited?) -- "
+              "leaving assets/activity.svg as it is", file=sys.stderr)
+
+    for name, svg in cards:
         path = os.path.join(OUT, "%s.svg" % name)
         with open(path, "w", encoding="utf-8", newline="\n") as f:
             f.write(svg)
