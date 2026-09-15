@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/langs.svg assets/highlights.svg
+          git add assets/stats.svg assets/langs.svg assets/highlights.svg assets/activity.svg
           if git diff --staged --quiet; then
             echo "stats unchanged - nothing to commit"
           else
