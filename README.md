@@ -130,6 +130,25 @@
 
 ## `~/projects` — the Cypher suite
 
+### 📱 Applications — the Cypher Store
+
+Five finished applications, released as installers rather than as source.
+Every one runs entirely on your own machine, needs no account, and has
+nothing behind a paywall. Download them from
+**[the store](https://cypherstore.vercel.app)** — that is the only place I
+publish them.
+
+| | Version | Runs on | |
+|---|---|---|---|
+| **[Cypher Music](https://cypherstore.vercel.app/projects/cypher-music)** | `2.122` | Windows · Linux · Android | Full offline library, a downloader, and a vocal/instrument separator that runs on your own hardware |
+| **[Cypher BOT](https://cypherstore.vercel.app/projects/cypher-bot)** | `1.120` | Windows · Linux · Android | Turns a thread into a narrated video, in a voice you pick |
+| **[Cypher Contacts](https://cypherstore.vercel.app/projects/cypher-contacts)** | `1.11` | Windows · Linux · Android | Eleven export formats, so your address book is yours to take |
+| **[Cypher Expenses](https://cypherstore.vercel.app/projects/cypher-expenses)** | `3.3` | Windows · Linux · Android | Expense tracking that answers where the money actually went |
+| **[Cypher HR](https://cypherstore.vercel.app/projects/cypher-hr)** | `1.920.1001` | Windows · Linux · PostgreSQL | Payroll, attendance and a ZKTeco biometric terminal, self-hosted |
+
+<sub>Source for these is not published. The repositories below are the ones
+you can read.</sub>
+
 ### ⚙️ Infrastructure &amp; Self‑Hosting
 
 <table>
@@ -280,7 +299,7 @@ Surgically splits vocals from instruments in any track — or rips the audio str
 <tr>
 <td width="50%" valign="top">
 
-#### [🛡️ cypher-hr](https://github.com/kencypher56/cypher-hr)
+#### [🛡️ Cypher HR](https://cypherstore.vercel.app/projects/cypher-hr)
 A fully transparent, free and open‑source **HR management system** — employees, bulk CSV onboarding, leave workflows and an admin console. Vanilla JS front end, **PostgreSQL** behind it.
 
 ![JavaScript](https://img.shields.io/badge/-Vanilla_JS-10131c?style=flat-square&logo=javascript&logoColor=7ea8e8)
@@ -290,7 +309,7 @@ A fully transparent, free and open‑source **HR management system** — employe
 </td>
 <td width="50%" valign="top">
 
-#### [🌌 kencypherportfolio](https://github.com/kencypher56/kencypherportfolio)
+#### [🌌 Cypher Store](https://cypherstore.vercel.app)
 An Interstellar‑style black hole you can push around with your cursor, built in **Three.js** — accretion disk, photon rings, particle debris field. [Live site →](https://kencypherportfolio.vercel.app/)
 
 ![Three.js](https://img.shields.io/badge/-Three.js-10131c?style=flat-square&logo=threedotjs&logoColor=7ea8e8)
@@ -322,7 +341,7 @@ An Interstellar‑style black hole you can push around with your cursor, built i
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kencypher56&bg_color=0D1117&color=9fb3c8&line=00e5a0&point=22d3ee&area_color=00e5a0&area=true&hide_border=true" alt="Contribution activity graph" width="100%" />
+<img src="https://raw.githubusercontent.com/kencypher56/kencypher56/main/assets/activity.svg" alt="Commits per week over the last year" width="100%" />
 
 </div>
 
@@ -346,7 +365,7 @@ An Interstellar‑style black hole you can push around with your cursor, built i
 
 <div align="center">
 
-<a href="https://cypherstore.vercel.app"><img src="https://img.shields.io/badge/Cypher%20Store-05070d?style=for-the-badge&logo=netlify&logoColor=00e5a0" alt="Cypher Store" /></a>
+<a href="https://cypherstore.vercel.app"><img src="https://img.shields.io/badge/Cypher%20Store-05070d?style=for-the-badge&logo=vercel&logoColor=00e5a0" alt="Cypher Store" /></a>
 <a href="https://github.com/kencypher56"><img src="https://img.shields.io/badge/GitHub-05070d?style=for-the-badge&logo=github&logoColor=22d3ee" alt="GitHub" /></a>
 <a href="mailto:kencypher56@gmail.com"><img src="https://img.shields.io/badge/Email-05070d?style=for-the-badge&logo=gmail&logoColor=f472b6" alt="Email" /></a>
 
