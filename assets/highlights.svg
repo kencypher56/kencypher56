@@ -28,7 +28,7 @@
 </g>
 <g>
 <rect x="802.0" y="22" width="180" height="70" rx="12" fill="#d64358" fill-opacity=".08" stroke="#d64358" stroke-opacity=".45"/>
-<text x="892.0" y="60" class="m" font-size="26" font-weight="700" fill="#d64358" text-anchor="middle">5.0</text>
+<text x="892.0" y="60" class="m" font-size="26" font-weight="700" fill="#d64358" text-anchor="middle">5.1</text>
 <text x="892.0" y="80" class="m s" text-anchor="middle">YEARS ON GITHUB</text>
 </g>
 <rect x="0" y="115" width="1000" height="3" fill="url(#ln)"/>
