@@ -187,12 +187,12 @@ A self‑hosted file server that doesn't look like 2004. Live filesystem monitor
 </td>
 <td width="50%" valign="top">
 
-#### [📡 cypher-share](https://github.com/kencypher56/cypher-share)
-Peer‑to‑peer file transfer across your LAN. A 6‑digit PIN handshake replaces IP hunting — no cloud, no USB sticks, no accounts. Just two machines and a wire.
+#### [📡 cypher-share](https://cypherstore.vercel.app/projects/cypher-share)
+Files and whole folders between Windows, Linux and Android, at the full speed of your own network. Devices find each other, the receiver ticks what comes in, and a cancelled transfer resumes where it stopped. Free download on Cypher Store.
 
 ![Python](https://img.shields.io/badge/-Python-10131c?style=flat-square&logo=python&logoColor=e8c26a)
+![Android](https://img.shields.io/badge/-Android-10131c?style=flat-square&logo=android&logoColor=e8c26a)
 ![P2P](https://img.shields.io/badge/-P2P-10131c?style=flat-square)
-![CLI](https://img.shields.io/badge/-CLI-10131c?style=flat-square&logo=gnubash&logoColor=e8c26a)
 
 </td>
 </tr>
